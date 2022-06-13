@@ -29,7 +29,8 @@ public class Main {
         //char
         char c1 = '+';
 
-
+        String name = "haim";
+        
         System.out.println(15 + 5);//20
         System.out.println(2 - 5);//-3
         System.out.println(15 * 5);//75
@@ -41,15 +42,9 @@ public class Main {
         System.out.println(x - y);//-1
         System.out.println(x * y);//20
         System.out.println(x / y);//0
-        System.out.println(x % y);//4
         System.out.println();
 
-        x=x+y;  x+=y;
-        x=x-y;  x-=y;
-        x=x*y;  x*=y;
-        x=x/y;  x/=y;
-        x=x%y;  x%=y;
-
+   
 
     }
 
